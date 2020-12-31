@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+header{
+    background: #121B2A;
+    padding: 20px 0px;
+}
+.wrapper{
+    width: 80%;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 55px;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+    padding-top: 30px;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+.menu li a:hover{
+    color: #0079bf;
+}
+.banner{
+    background-image: url(../images/banner_bg.jpg);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herotext{
+    width: 50%;
+    margin: 220px 0px;
+}
+.herotext h1{
+    font-size: 37px;
+    font-weight: 300;
+}
+.herotext h2{
+    font-size: 43px;
+    font-weight:700px ;
+    color: #0079bf;
+}
+.herotext h3{
+font-size: 16px;
+font-weight: 100px;
+line-height: 25px;
+margin-bottom: 30px;
+}
+.herotext button{
+    font-size: 25px;
+    padding: 10px 30px;
+    color: #656565;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+.herotext button:hover{
+    color: #f8f8f8;
+    background-color: #0079bf;
+}
+/* service start */
+.service{
+    background: #121B2C;
+    padding: 50px 0px;
+}
+.single{
+    width: 29%;
+    float: left;
+    padding: 0 2%;
+    overflow: hidden;
+}
+.single:first-child{
+    padding-left: 0;
+}
+.single:last-child{
+    padding-right: 0px;
+}
+.sin-top{
+overflow: hidden;
+}
+.t-img{
+    width: 30%;
+    float: left;
+}
+.t-img img{
+    width: 100%;
+}
+.t-text{
+    width: 70%;
+    float: left;
+    margin-top: 20px;
+}
+.t-text h2{
+    text-transform: capitalize;
+    font-size: 25px; 
+    font-weight: 300;   
+}
+.t-text h3{
+    color: #0079bf;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 300;
+}
+.wireless{
+    margin-top: 30px;
+}
+.wireless h2{
+    display: inline;
+}
+.wireless h3{
+    display: inline;
+}
+.sin-bottom{
+    margin-top: 20px;
+}
+.sin-bottom p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+}
+/* contact start */
+.contact{
+    background: #040811;
+    padding: 40px 0px;
+}
+.con-single1{}
+.con-top{
+
+}
+.con-top h2{
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.con-top p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.con-bottom{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.con-left{
+    width: 30%;
+    float: left;
+}
+.con-left p{
+    font-size: 15px;
+   font-weight: 200;
+    line-height: 20px;
+    text-transform: capitalize;
+   
+}
+.con-right{
+    width: 50%;
+    float: left;
+}
+.con-right p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.con-bottom2{
+    margin-top: 35px;
+}
+.con-bottom2 h2{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.con-bottom2 p{
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+
+}
+
+.con-single3{
+
+}
+.con-img {
+    width: 33%;
+    float: left;
+}
+.con-img img{
+    width: 100%;
+}
+.con-text{
+    width: 50%;
+    float: left;
+    margin: 0px 0px;
+}
+.con-text h2{
+  
+}
+.con-text img{
+    width: 100%;
+}
+.top3{
+    width: 60%;
+    float:right;
+}
+.top3 img{
+    width: 100%;
+}
+.top3 h2{
+    margin-bottom: 5px;
+}
+.top3 h3{
+    color: #0079bf;
+    margin: 0px;
+}
+/* contact end */
+/* footer start */
+.footer{
+    background: #121b2c;
+    padding: 25px 0px;
+}
+.footer-manu{
+    width: 58%;
+    float: left;
+}
+.f-nav{
+    overflow: hidden;
+}
+.f-nav li{
+    float: left;
+    list-style: none;
+    border-right: 2px solid white;
+}
+.f-nav li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0;
+    
+}
+.f-nav li:first-child a{
+    margin-left: 0px;
+}
+.footer-manu p{
+  margin-top: 20px;
+  font-size: 14px ;
+}
+.footer-img{
+    width: 15%;
+    float: left;
+    margin: 0px 10px;
+}
+.footer-img img{
+    width: 100%;
+}
+
+
